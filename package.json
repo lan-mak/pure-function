@@ -1,0 +1,31 @@
+{
+  "name": "pure-function",
+  "version": "1.0.0",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/34dfk64ielcyw70r?svg=true)](https://ci.appveyor.com/project/lan-mak/pure-function)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lan-mak/pure-function.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lan-mak/pure-function/issues"
+  },
+  "homepage": "https://github.com/lan-mak/pure-function#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.0.3",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "jest": "^28.0.3"
+  },
+  "dependencies": {
+    "core-js": "^3.22.4"
+  }
+}
